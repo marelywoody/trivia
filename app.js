@@ -68,7 +68,7 @@ function check() {
 			document.getElementById('incorrecta3').innerHTML='3.-INCORRECTA';
 		}
 
-		document.getElementById('totalCorrec').innerHTML='Tu total correstas ' + contCorrect;
+		document.getElementById('totalCorrec').innerHTML='Tu total correctas ' + contCorrect;
 		document.getElementById('totalIncor').innerHTML='Tu total incorrectas ' + contIncorrect;
 
 		trivia.style.display = 'none';
