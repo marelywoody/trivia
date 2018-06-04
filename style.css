@@ -1,0 +1,106 @@
+section {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+body {
+	margin:0 auto;
+	background-image: url("https://berenicelemus.com/webtrivianas/fondo_cerezos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:120%;
+}
+
+	h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+		h2 {
+    text-align: center;
+    color: magenta;
+    font-size: 50px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    text-shadow: 2px 2px #0000;
+    margin-bottom:10%;
+}
+
+	tr {
+	text-align: center;
+    font-family:arial;
+    font-size: 30px;
+}
+
+		p {
+    color: black;
+    font-size: 25px;
+    /*background-color: yellow;*/
+}
+
+
+div form {
+
+    margin:100px;
+    text-align: auto;
+    color: black;
+    font-size: 25px;
+    /*background-color: yellow;*/
+    color: black;
+}
+
+ #boton {
+ 	margin: auto;
+ 	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:43%;
+    margin-bottom: 25%
+}
+
+div mark {
+	background-color: rgb(255,255,255,.8);
+
+}
+
+div form {
+    background-color: rgb(255,255,255,.8);
+
+}
+
+.equals {
+	text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+.corr {
+	color: green;
+}
+
+.incorr {
+	color:red;
+	padding-left: 60%;
+    width: 1%;
+
+}
+
+table {
+	background-color: rgb(255,255,255,.8);
+
+}
+#trivia {
+  text-align: left;
+}

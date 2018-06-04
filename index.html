@@ -1,0 +1,108 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Trivianas/Inicio </title>
+		<!--Link a CSS para dar estilo-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+	<!-- introducir nombre con el input -->
+   <section id='body'>
+		 <div>
+			<h1>Bienvenid@</h1>
+			<h1 id="myNameDiv"></h1>
+		</div>
+
+		<div id='enviarNam'>
+			<form>
+				Nombre: <input type="text" id="myName" name="name" placeholder='Ingresa tu nombre'>
+				<input type="button" value="Enviar" onclick="enviarName()">
+			</form>
+		</div>
+
+	<!-- Iniciamos preguntando si quiere jugar -->
+
+       <div id="jugar">
+		<form>
+           <p>Vamos a jugar estas preparada/o?</p>
+           <input type="button" value="Si" onclick="siJuegas()">
+           <input type="button" value="No" onclick="noJuegas()">
+         </form>
+        </div>
+
+
+	<!-- Iniciamos preguntas -->
+
+		<section id='trivia'>
+			<div>
+				<form>
+					<h1>TRIVIA</h1>
+					<h3>Responde las preguntas, suerte</h3>
+					¿Qué es Java?<br>
+					<input type="radio" name="Jav" id="javu">Es un lenguaje de programación de propósito general orientado a objetos.<br>
+					<input type="radio" name="Jav" id="jsu">Es un lenguaje de programación interpretado.<br>
+					<input type="radio" name="Jav" id="city">Es una ciudad en Africa.<br>
+				</form>
+			</div>
+			<div>
+				<form>
+					¿Qué es HTML?<br>
+					<input type="radio" name="Ht" id="hp">Una empresa Estadounidense de tecnología.<br>
+					<input type="radio" name="Ht" id="5">Es un desayuno de un hotel 5 estrellas.<br>
+					<input type="radio" name="Ht" id="tm">Es un lenguage demarcado para la elaboración de páginas web.<br>
+				</form>
+			</div>
+			<div>
+				<form>
+					¿Qué es CSS?<br>
+					<input type="radio" name="CS" id="3">Es un lenguaje de diseño gráfico para diseñar paginas web.<br>
+					<input type="radio" name="CS" id="cafe">Es un café gourmet.<br>
+					<input type="radio" name="CS" id="conta">Es un lenguaje para crear documentos de contabilidad.<br>
+				</form>
+			</div>
+			<input type='button' id='boton' value="CALIFICAR" onclick="check()">
+		</section>
+
+		<section id='resultados'>
+			<div>
+				<h1>TUS RESULTADOS FUERON</h1>
+				<p class="equals">RESPUESTA(S)</p>
+			</div>
+			<div>
+				<table>
+					<tr>
+						<td class="corr" id='correcta1'></td>
+					</tr>
+					<tr>
+						<td class="corr" id='correcta2'></td>
+					</tr>
+					<tr>
+						<td class="corr" id='correcta3'></td>
+					</tr>
+					<tr>
+						<td class="corr" id='totalCorrec'></td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<table>
+					<tr>
+						<td class="incorr" id='incorrecta1' ></td>
+					</tr>
+					<tr>
+						<td class="incorr" id='incorrecta2'></td>
+					</tr>
+					<tr>
+						<td class="incorr" id='incorrecta3'></td>
+					</tr>
+					<tr>
+						<td class="incorr" id='totalIncor'></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		</section>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
